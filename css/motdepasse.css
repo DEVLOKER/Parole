@@ -1,0 +1,80 @@
+
+.change_pass {
+    margin-top: 30px;
+  	width: 400px;
+    height: 360px;
+  	background-color: #ffffff;
+  	box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+.change_pass form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.change_pass h1 {
+  	text-align: center;
+  	color: #eaebed;
+  	font-size: 18px;font-weight: bold;
+  	padding: 20px 0 20px 0;
+  	border-bottom: 1px solid #dee0e4;
+    font-family: sans-serif;
+    letter-spacing: 0px;
+    background-color:#015896; /*  #2f3947 #015896  */
+    font-weight: normal;
+    border-radius:2px 2px 0px 0px; 
+}
+
+.change_pass form label {
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	width: 35px;
+  	height: 37px;
+    font-size:14px;
+  	background-color: #fff;
+  	color: #ffffff;
+}
+.change_pass form input[type="password"], .change_pass form input[type="text"] {
+  	width: 340px;
+  	height: 45px;
+  	border: 1px solid #dee0e4;
+  	margin-bottom: 20px;
+  	padding: 0 15px;
+}
+
+/*.change_pass form .submit {
+  background-color: #015896; /*  #2f3947 #015896  /
+}*/
+
+.change_pass form a:hover {
+  background-color: #888;
+    transition: background-color 0.2s;
+}
+
+.change_pass .chg_anul {
+    width: 340px;
+  
+}
+
+.field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-top: 15px;
+  position: relative;
+  z-index: 2;
+}
+.change_pass form .pw {
+  float: left;
+  margin-left: 40px;
+  margin-top: 15px;
+  position: relative;
+  z-index: 2;
+  display: none;
+}
+
+.toggle-password {
+color: #015896; /*  #2f3947 #015896  */
+}

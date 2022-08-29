@@ -1,0 +1,44 @@
+#block {
+	display: flex;
+	flex-wrap: wrap;
+}
+#block .alert{
+	width:270px; height: 170px;
+	margin: 15px;
+	background: #fff;
+	border-width: 2px;
+	padding-left:6px;
+	padding-right:6px; 
+}
+
+#block .alert hr {
+	margin-top: 0px;
+}
+
+#block .alert .justify {
+	  text-align: justify;
+  text-justify: inter-word;
+}
+
+#block .alert .btn-danger {
+width: 105px;
+}
+
+.content {
+	width: 95%;
+}
+#block .appel_encours {
+border-width: 0px;
+box-shadow: -1px 2px 15px 5px #52acba; /*  #155724  #bee5eb;   #0069d9 */
+
+}
+
+
+.acc_ref {
+	position: absolute;
+	bottom: 10px;
+	width: 95%;
+}
+
+
+

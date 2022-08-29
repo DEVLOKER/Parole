@@ -1,0 +1,58 @@
+.table .thead-dark th {
+background-color: #015896; 
+color: #eaebed;
+border-width: 0px;
+font-weight: 600;
+font-size: 16px;
+}
+
+.table .thead-dark th:first-child{
+	border-radius: 1px 0px 0px 0px;
+}
+.table .thead-dark th:last-child{
+	border-radius: 0px 1px 0px 0px;
+}
+
+.table .fas {
+	margin: 4px; 
+	color:#015896; /*  #2f3947 #015896  */
+}
+
+.pagination { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+
+.pagination .page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #015896; /* #2f3947   #32383e	#2868c7 	*/
+    border-color: #015896;
+}
+
+.pagination .page-link {
+	border: 1px solid #fff;
+	color: #015896;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.pagination .page-link:hover {
+    color: #0056b3;
+    text-decoration: none;
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+}
+.pagination a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.modifier .fas {
+    color: #015896; /*   #17a2b8   #015896   */
+}
+
+.supprimer .fas {
+    color: #c82333; /*   #c82333   #015896   */
+}
