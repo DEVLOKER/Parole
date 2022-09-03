@@ -1,5 +1,5 @@
 # Parole
-web app for management of requests to speak
+web app to simulate managing access of clients requests by one or several administrator, where the admin can (give/refuse/end) the access for only one client in time, here an example of management of requests to speak.
 ## Used Tools
 `Wampserver 3.2.3`, `PHP 7.4.9`,  `MYSQL 5.7.31`,  `Apache 2.4.46`.
 ## How to configure?
