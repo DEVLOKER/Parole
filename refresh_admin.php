@@ -35,7 +35,7 @@ function calcule_time($debut_date, $fin_date){
 
 						$etat = $tmp_array['etat'];
 						$class_css = "alert-info";
-						$message= 'est demandé la parole à';
+						$message = 'est demandé la parole à';
 						$btn_donner_parole = '';
 						$btn_plus_tard = 'Plus tard';
 						
@@ -59,10 +59,10 @@ $block["blockHTML"] .= '
 					  <!--<button type="button" class="close" data-dismiss="alert" aria-label="Close">
 					    <span aria-hidden="true">&times;</span>
 					  </button>-->
-					  <h6 class="alert-heading"><i class="fas fa-user-tie fa-1x" ></i> <strong>'.$tmp_array['service'].'</strong> </h6>
+					  <h6 class="alert-heading"><i class="fas fa-user-tie fa-1x" ></i> <strong>'.$tmp_array['username'].'</strong> </h6>
 					   <hr>
 
-					   <h6 class="alert-heading justify"><strong> '.$tmp_array['service'].'  </strong> 
+					   <h6 class="alert-heading justify"><strong> '.$tmp_array['username'].',</strong> 
 					   '.$message.' <span class="time"> '.$diff.'</span> </h6>
 					   		
 					   <center >

@@ -69,7 +69,7 @@ if (!isset($_SESSION['loggedin'])) {
 		if ($exist==0) {
 
 			echo('<div class="alert alert-success alert-dismissible fade show" role="alert">
-				  <strong><i class="fas fa-exclamation-circle" ></i></strong> Compte "'.$_POST['service'].'" est crée avec Succès. 
+				  <strong><i class="fas fa-exclamation-circle" ></i></strong> Compte "'.$_POST['service'].'" est crée avec succès. 
 				  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
 				    <span aria-hidden="true">&times;</span>
 				  </button>
@@ -79,7 +79,7 @@ if (!isset($_SESSION['loggedin'])) {
 			<script type="text/javascript">
 					setTimeout(function(){ 
 						window.location.href = "Gestion_Comptes.php";
-					}, 3000);
+					}, 2000);
 			</script>');
 
 		} else {

@@ -1,9 +1,10 @@
 	<center id="myheader" >
-		<nav class="navtop">
+		<nav class="navtop" >
 			<div>
 				<!-- <img src="img/download.png" width="100" height="65" style="margin-top: -5px; border: 1px solid #fff;" > -->
-				<i class="fa fa-microphone" style="color: #fff; font-size: 40px; margin-top: 10px;" ></i>
-				&nbsp;&nbsp; <h1>Gestion des demanades Parole</h1>
+				<!-- <i class="fa fa-microphone" style="color: #fff; font-size: 40px; margin-top: 10px;" ></i> -->
+				<p class="logo" ></p>
+				<h1>Parole</h1>
 
 <?php
 
@@ -16,7 +17,7 @@ if (isset($_SESSION['loggedin'])) {
 			if($_SESSION['type']==1) $href = "Admin_Gestion.php";
 			else $href = "User_Demande.php";
 
-			echo ('<a href="'.$href.'"><i class="fas fa fa-user"></i>'.$_SESSION['service'].'</a>');
+			echo ('<a href="'.$href.'"><i class="fas fa fa-user"></i>'.$_SESSION['username'].'</a>');
 
 			if($_SESSION['type']==1) 
 			echo ('<a href="Gestion_Comptes.php"><i class="fas fa-cog"></i>Gestion des comptes</a>');

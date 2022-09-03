@@ -63,3 +63,28 @@ body.loggedin {
 	background-color: #fff;
 	width: 99%;
 }
+
+
+.navtop p.logo {
+	background-color: #fff;
+	background-image: url("../img/logo-128x128.png");
+	background-repeat: no-repeat;
+    background-size: cover; /*auto*/
+    background-position: center;
+	width: 45px; height:45px; margin: 0px 20px 0px 0px; margin-top: 8px;
+	padding: 4px; border-radius: 15px;
+	animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+	0% {
+		transform: scale(1, 1);
+	}
+	50% {
+		transform: scale(1.1, 1.1);
+	}
+	100% {
+		transform: scale(1, 1);
+	}
+}
+

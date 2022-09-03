@@ -72,7 +72,8 @@
 			  $tmp_array['id_user'] = $row['id_user'];
 			  $tmp_array['date_time'] = $row['date_time'];
 			  $tmp_array['etat'] = $row['etat'];
-			  $tmp_array['service'] = $row['service'];			
+			  $tmp_array['service'] = $row['service'];
+			  $tmp_array['username'] = $row['username'];
 			  array_push($list,$tmp_array);
 			}
 		   

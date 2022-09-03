@@ -9,7 +9,11 @@
 									<p> DEVLOKER Tous droits réservés. 2019 © </p>
 								</td>
 								<td>
-									<p> cntcts.dev.loker@outlook.com </p>
+									<p>
+										<a href = "mailto:cntcts.dev.loker@outlook.com?subject=Parole&body=Message">
+											Contact Us
+										</a>
+									</p>
 								</td>								
 							</tr>
 						</tbody>

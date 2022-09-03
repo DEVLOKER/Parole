@@ -7,30 +7,19 @@
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link href="css/index.css" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="css/pied.css">
+
+		<link rel="icon" href="img/Parole.ico" type="image/x-icon" />
 	</head>
 	<body class="loggedin" >
 
 		<nav class="navtop header_index">
 			
-				<table>
-					<tbody>
-						<tr>
-							<td>
-								<!-- <img src="img/logo1.png" width="100" height="130" style="margin: 0px 20px;" /> -->
-							</td>
-							<td>
-								<span class="login100-form-title-1" >
-								<center>
-									<h1>Gestion des demanades "Parole &nbsp;<i class="fa fa-microphone fa-1x" ></i>" </h1>
-								</center>
-								</span>
-							</td>
-							<td>
-								<!-- <img src="img/logo2.png" width="100" height="130" style="margin: 0px 20px;" /> -->
-							</td>
-						</tr>
-					</tbody>
-				</table>
+			<p class="logo" ></p>
+
+			<span class="login100-form-title-1" >
+				<!-- <h1>Gestion des demanades "Parole &nbsp;<i class="fa fa-microphone fa-1x" ></i>" </h1> -->
+				<h1>Parole</h1>
+			</span>
 			
 		</nav>	
 		<hr>

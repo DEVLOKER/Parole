@@ -2,23 +2,23 @@
 
 	
 
-  
+
 	// ###################################### ajouterUser #####################################
-	 function ajouterUser($service_, $username_, $password_, $type_){
-	   	  require 'DB_config.php';
-	   	  $requet = "SELECT * FROM user WHERE service = '".$service_."' OR username = '".$username_."' ";
-	   	  $stmt = $conn->prepare($requet);
-	   	  $stmt->execute();
-	   	  //$stmt->fetchColumn(); // num_rows
-	   	  if($stmt->fetchColumn()==0){
-			  $requet = "INSERT INTO user values('', '".$service_."', '".$username_."', '".$password_."', '".$type_."' )";
-			  $stmt = $conn->prepare($requet);
-			  $stmt->execute();
-			  return 0;
-			}else{
-				return 1;
-			}
-	 }
+	function ajouterUser($service_, $username_, $password_, $type_){
+		require 'DB_config.php';
+	   	$requet = "SELECT * FROM user WHERE service = '".$service_."' OR username = '".$username_."' ";
+		$stmt = $conn->prepare($requet);
+		$stmt->execute();
+	   	//$stmt->fetchColumn(); // num_rows
+		if($stmt->fetchColumn()==0){
+			$requet = "INSERT INTO user values(NULL, '".$service_."', '".$username_."', '".$password_."', '".$type_."' )";
+			$stmt = $conn->prepare($requet);
+			$stmt->execute();
+			return 0;
+		}else{
+			return 1;
+		}
+	}
   
 	// ###################################### modifierUser #####################################
 	 function modifierUser($id_user_, $service_, $username_, $password_, $type_){

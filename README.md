@@ -18,4 +18,5 @@ web app for management of requests to speak
 ![home_admin_1](https://github.com/DEVLOKER/Parole/blob/main/screenshots/home_admin_1.jpg?raw=true "home_admin_1")
 ![home_admin_2](https://github.com/DEVLOKER/Parole/blob/main/screenshots/home_admin_2.jpg?raw=true "home_admin_2")
 ![accounts_admin_3](https://github.com/DEVLOKER/Parole/blob/main/screenshots/accounts_admin_3.jpg?raw=true "accounts_admin_3")
+![add_admin_4](https://github.com/DEVLOKER/Parole/blob/main/screenshots/add_admin_4.jpg?raw=true "add_admin_4")
 ![password_admin_4](https://github.com/DEVLOKER/Parole/blob/main/screenshots/password_admin_4.jpg?raw=true "password_admin_4")

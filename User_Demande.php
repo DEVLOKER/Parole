@@ -37,13 +37,39 @@ function calcule_time($debut_date, $fin_date){
 		<title>Demande</title>
 
 		<script type="text/javascript" src="jquery/jquery-3.3.1.js" ></script>
-		<script type="text/javascript" src="js/bootstrap.js" ></script>
+		<script type="text/javascript" src="jquery/jquery-ui.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.js" ></script>		
 
-		<link href="css/entete.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="css/entete.css" type="text/css">
 		<link rel="stylesheet" href="css/all.css">
 		<link rel="stylesheet" href="css/bootstrap.css">
-		<link href="jquery/jquery-ui.css" rel="stylesheet" type="text/css">
 		
+		<link rel="icon" href="img/Parole.ico" type="image/x-icon" />
+		<style>
+			.navtop p.logo {
+				background-color: #fff;
+				background-image: url("./img/logo-128x128.png");
+				background-repeat: no-repeat;
+				background-size: cover; /*auto*/
+				background-position: center;
+				width: 45px; height:45px; margin: 0px 20px 0px 0px; margin-top: 8px;
+				padding: 4px; border-radius: 15px;
+				animation: zoom-in-zoom-out 1s ease infinite;
+			}
+
+			@keyframes zoom-in-zoom-out {
+				0% {
+					transform: scale(1, 1);
+				}
+				50% {
+					transform: scale(1.1, 1.1);
+				}
+				100% {
+					transform: scale(1, 1);
+				}
+			}
+		</style>
+
 	<script type="text/javascript">
 	
 		var an_etat = -1;
@@ -83,17 +109,14 @@ function calcule_time($debut_date, $fin_date){
 	</head>
 	<body class="loggedin">
 		<?php
-		require 'Entete.php';
+			require 'Entete.php';
 		?>
+
 		<div class="content" style="width:95%" >
 			<h2>Demande de la parole</h2>
-		<br>
-		<div class="pp" id="block" >
-				
-
-
+			<br>
+			<div class="pp" id="block" ></div>
 		</div>
-	</div>
 
 	</body>
 </html>
